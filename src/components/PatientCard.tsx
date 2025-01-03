@@ -26,8 +26,8 @@ export function PatientCard ({ name, age, diagnosis, onMoreDetails }: PatientCar
               <span className="icon">
                 <i className="fas fa-birthday-cake"></i>
               </span>
-              <span className="has-text-grey-dark">
-                <strong className="has-text-black-ter">Edad: </strong>{age}
+              <span>
+                <strong>Edad: </strong>{age}
               </span>
             </span>
           </p>
@@ -36,8 +36,8 @@ export function PatientCard ({ name, age, diagnosis, onMoreDetails }: PatientCar
               <span className="icon has-text-danger">
                 <i className="fas fa-heartbeat"></i>
               </span>
-              <strong className="has-text-black-ter">Diagnóstico: </strong>
-              <span className="has-text-grey-dark">
+              <strong>Diagnóstico: </strong>
+              <span>
                 {diagnosis}
               </span>
             </span>
